@@ -1,10 +1,11 @@
 # Running RQDA in linux using Docker
 
 - A big thanks to [Fred Vanwin](https://github.com/FrdVnW/dockerqda) for creating and maintaining the docker container.
+- Also, thank you to [Ronggui Huang](https://github.com/Ronggui) for creating RQDA.
 - The instructions were adapted from:
     - https://github.com/FrdVnW/dockerqda
     - https://hub.docker.com/r/frdvnw/dockerqda
-- Also, thank you to [Ronggui Huang](https://github.com/Ronggui) for creating RQDA.
+- Kindly refer to the original instruction by Fred Vanwin for more information.
 
 
 ### Pulling the docker images
