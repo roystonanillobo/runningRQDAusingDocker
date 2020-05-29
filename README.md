@@ -5,7 +5,7 @@
 - The instructions were adapted from:
     - https://github.com/FrdVnW/dockerqda
     - https://hub.docker.com/r/frdvnw/dockerqda
-- Kindly refer to the original instruction by Fred Vanwin for more information.
+- Kindly refer to the original instructions by [Fred Vanwin](https://hub.docker.com/r/frdvnw/dockerqda) for more information.
 
 
 ### Pulling the docker images
