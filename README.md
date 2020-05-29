@@ -17,7 +17,7 @@ docker pull frdvnw/dockerqda
 - in command for volume, replace **paste the location of the folder you want** to the location of the folder of your choice.
 - This will be the folder were RQDA running in docker will be able to view the files in our system
 - However while once RQDA runs the user as to navigate to /home/dockerqda/
-- Since the volume command connects the folder of our choice to the folder dockerrqda in the docker system
+- Since the volume command connects the folder of our choice to the folder dockerqda in the docker system
 
 ```
 #!/bin/bash
