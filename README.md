@@ -34,10 +34,14 @@ sudo docker run -it --volume=$XSOCK:$XSOCK:rw \
      frdvnw/dockerqda:latest
 ```
 
+### Making the script executable
+```
+chmod +x RunDockeRQDA.sh
+```
+
 ### Exec the script for running the container initially 
 
 ```
-chmod +x RunDockeRQDA.sh
 ./RunDockeRQDA.sh
 ```
 ### For subsequent running of the container
