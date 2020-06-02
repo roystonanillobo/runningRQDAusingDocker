@@ -8,12 +8,10 @@
 - Kindly refer to the original instructions by [Fred Vanwin](https://hub.docker.com/r/frdvnw/dockerqda) for more information.
 
 
-### Pulling the docker images
-```
-docker pull frdvnw/dockerqda
-```
+## Setup
+- Download or clone the repository to your local drive.
 
-### Save the following commands as RunDockeRQDA.sh
+### Edit the RunDockeRQDA.sh file
 
 - in command for volume, replace **paste the location of the folder you want** to the location of the folder of your choice.
 - This will be the folder were RQDA running in docker will be able to view the files in our system
@@ -40,12 +38,23 @@ sudo docker run -it --volume=$XSOCK:$XSOCK:rw \
 chmod +x RunDockeRQDA.sh
 ```
 
-### Exec the script for running the container initially 
+
+### Execute the script for running RDQA
+
+- Pull the docker image.
+
+```
+docker pull frdvnw/dockerqda
+```
+
+- Exceute RunDockeRQDA.sh in terminal.
 
 ```
 ./RunDockeRQDA.sh
 ```
-### For subsequent running of the container
-```
-docker start -i whirl_wheels
-```
+- R will open in the terminal. 
+- From there lauch RDQA.
+
+### For subsequent running of RQDA
+
+- Just execute the ./RunDockeRQDA.sh script
